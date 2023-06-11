@@ -173,20 +173,16 @@ align-items: center;
   background-color: #000;
   height: 60px;
   width: 100%;
-  margin: 0;
-  margin-top: 25px;
+  margin-top: 1000px;
   padding: auto;
-  position: relative;
   bottom: 0;
   left: 0;
-  z-index: 999;
   border-top: 1px solid #55BBBB ;
 } 
 
 .footer p {
   color: white;
   text-align: center;
-  padding-top: auto;
 
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 20px;  
