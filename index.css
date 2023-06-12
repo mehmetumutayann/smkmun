@@ -340,7 +340,7 @@ body::after {
   color: white;
   margin: 0 auto;
   text-align: center;
-  background-color: #55BBBB;
+  background-color: black;
   border-radius: 15px;
   padding: 5px;
 }
@@ -402,34 +402,56 @@ body::after {
   padding: 30px;
   padding-top: 35px;
   border-radius: 10px;
-  margin-bottom: 100px; 
   }
+
+  .navbar {
+    height: 125px;
+  }
+
+  .countdown li {
+    display: inline-block;
+    gap: 10px;
+  }
+
+  .countdown {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+
+  }
+
+  .list {
+    display: flex;
+    transform: scale(0.7);
+    margin-right: -73px;
+    margin-top: 65px;
+  }
+
+  .yazilar {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 1px;
+  }
+
+  
+
+  .list li {
+    flex: 1;
+  }
+
+
 
 
   .menu ul li:hover {
     border-bottom: 2px solid #55BBBB;
   } 
 
-  .tema .fotolar img {
-    height: 35px;
-    text-align: center;
-  }
-  .tema .fotolar {
-  text-align: center;
-  align-items: center;
-  }
 
-  .fotolar img:not(:last-child) {
-    margin-right: 0;
-    border-right: none;
-    padding-right: 0;
-  }
 
-  .sfhr {
-    height: 2px;
-    background-color: #000;
-    
-  }
+
 
 
   
@@ -453,14 +475,13 @@ body::after {
 
   .footer {
     background-color: #000;
-
+    height: 80px;
     width: 100%;
     display: absolute;
     margin-bottom: 0;  
     bottom: 0;
     left: 0;
     z-index: 999;
-    margin-top: auto;
   } 
   
   .footer p {
@@ -471,97 +492,32 @@ body::after {
     font-size: 20px;  
   }
 
-  .navbar{
-    padding: 10px;
-    margin-left: 0;
-    margin-top: -92px;
-    height: 60px;
-    position: fixed;
-  }
+
   .logo img{
-    margin-left: 5px;
+    margin-left: 80px;
     font-size: 10px;
-    height: 100px;
+    height: 125px;
     
   }
 
 
   .item a {
     color: white;
-    text-align: center;
     
   }
 
-  .list{
-    gap: 10px;
-    margin-right: 5px;
-    color: white;
-  }
-  #toggler, .navbar label{
-    display: none;
-    margin-top: -21px;
-  }
-  .menu{
-    margin-top: 5px;
-    width: 100%;
-    max-height: 0;
-    overflow: hidden;
-    margin: auto;
-    position: relative;
-    transition: all 0.3s ease-in-out;
-
-
-   
-  }
   
 
   
   .logo{
     margin-left: 0;
-    height: -40px;
-    margin-top: 13px;  
-  }
-  .list{
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    
-  }
-  .navbar label{
-    display: inline-flex;
-    align-items: center;
-    cursor: pointer;
-    
-  }
-  #toggler:checked ~ .menu{
-    max-height: 100vh;
-    width: 100%;
-    background-color: #000;
-    border-radius: 10px;
-    border-bottom: 2px solid #55BBBB;
-    border-left: 2px solid #55BBBB; 
-    border-right: 2px solid #55BBBB; 
-    border-top: 2px solid #55BBBB;  
-    border-color: #55BBBB;
-    transition: all 0.3s ease-in-out;
 
-    
+    margin-top: px;  
   }
 
-
-  .videolar {
-margin: 0;
-  }
   
-  .videolar iframe {
-    height: 190px;
-    width: 270px;
-    text-align: center;
-    border: 3px solid #55BBBB;
-    margin: 0;
-    margin-bottom: 15px;
-  }
-  
+
+
 
 
 }
