@@ -121,6 +121,20 @@
     color: #fff;
     margin-right: 10px;
   }
+
+  .baslik {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 135px;
+    color: white;
+    justify-content: center;
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
   
   #toggler, .navbar label{
     color: #ffffff;
@@ -132,6 +146,8 @@
     margin-right: 10px;
     display: none;
   }
+
+
   
   /* Menü Öğesi Arkaplan Rengi */
   .active {
@@ -224,7 +240,7 @@
   
   .tema {
     margin: 100px;
-    margin-top: 110px;
+    margin-top: 20px;
     margin-bottom: auto;
     padding: 50px;
     padding-top: 10px;
@@ -295,6 +311,8 @@
     bottom: 0;
     left: 0;
     border-top: 1px solid #55BBBB ;
+    justify-content: center;
+    align-items: center;
   } 
   
   .yazimamasusluolan {
