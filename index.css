@@ -56,7 +56,6 @@
   font-size: 20px;
   color: white;
   text-align: center;
-  padding: 14px 20px;
   text-decoration: none;
   font-family: 'Roboto Condensed', sans-serif;
   transition: all 0.3s ease-in-out;
@@ -114,7 +113,8 @@ align-items: center;
 }
 .list{
   list-style: none;
-  display: fixed;
+  display: flex;
+  position: fixed;
   right: 5px;
   top: 10px;
   gap:5px;
@@ -417,19 +417,11 @@ body::after {
     }
   
     .list {
-      scale: 0.5;
-      margin-top: -30px;
-      gap: 1px;
       display: flex;
-      flex-direction: row;
-      padding: 0;
-      margin-right: 270px;
+      scale: 0.7;
+      margin-top: 65px;
+      gap: px;
     
-    }
-
-    .menu {
-      margin: 0;
-      padding: 0;
     }
   
     .yazilar {
@@ -439,10 +431,15 @@ body::after {
     }
   
     
-  
-    .list li {
+    .word {
+      display: inline-block;
+      margin-right: 5px; /* İsteğe bağlı: Boşluk ayarlamak için */
     }
-  
+    
+    .menu ul li a {
+      padding: 14px 0px;
+      
+    }
   
   
   
