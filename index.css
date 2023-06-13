@@ -124,16 +124,6 @@ align-items: center;
   margin-right: 10px;
 }
 
-#toggler, .navbar label{
-  color: #ffffff;
-  background-image: url("menu-icon.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 25px;
-  height: 25px;
-  margin-right: 10px;
-  display: none;
-}
 
 /* Menü Öğesi Arkaplan Rengi */
 .active {
@@ -372,152 +362,155 @@ body::after {
 }
 
 
+#toggler, .navbar label{
+  color: #ffffff;
+  background-image: url("menu-icon.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+
 @media all and (max-width: 768px) {
-  h1 {
+  .countdown h1 {
     font-size: calc(1.5rem * var(--smaller));
   }
   
-  li {
+  .countdown li {
     font-size: calc(1.125rem * var(--smaller));
   }
   
-  li span {
+  .countdown li span {
     font-size: calc(3.375rem * var(--smaller));
   }
 }
 
 
 
-
-
-
-
-
-
 @media screen and
 (max-width: 600px) {
   .tema {
-  margin: 15px;
-  margin-top: 90px;
-  padding: 30px;
-  padding-top: 35px;
-  border-radius: 10px;
-  }
-
-  .navbar {
-    height: 125px;
-  }
-
-  .countdown li {
-    display: inline-block;
-    gap: 10px;
-  }
-
-  .countdown {
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    padding: 20px;
-
-  }
-
-  .list {
-    display: flex;
-    transform: scale(0.7);
-    margin-right: -73px;
-    margin-top: 65px;
-  }
-
-  .yazilar {
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 1px;
-  }
-
+    margin: 15px;
+    margin-top: 90px;
+    padding: 30px;
+    padding-top: 35px;
+    border-radius: 10px;
+    }
   
-
-  .list li {
-    flex: 1;
-  }
-
-
-
-
-  .menu ul li:hover {
-    border-bottom: 2px solid #55BBBB;
-  } 
-
-
-
-
-
-
+    .navbar {
+      height: 125px;
+    }
   
-
-
-
+    .countdown li {
+      display: inline-block;
+      gap: 10px;
+    }
   
-  .tema h1 {
-  font-size: 30px;
-  }
+    .countdown {
+      justify-content: center;
+      align-items: center;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+      padding: 20px;
   
-  .tema p {
-  font-size: 18px;
-  }
-
-  body {
-      background-size: auto;
-  }
+    }
   
+    .list {
+      display: flex;
+      margin-right: -15%;
+      scale: 0.7;
+      margin-top: 65px;
+      gap: 1px;
+    }
   
-
-  .footer {
-    background-color: #000;
-    height: 80px;
-    width: 100%;
-    display: absolute;
-    margin-bottom: 0;  
-    bottom: 0;
-    left: 0;
-    z-index: 999;
-  } 
+    .yazilar {
+      margin-left: 30px;
+      margin-right: 30px;
+      margin-top: 1px;
+    }
   
-  .footer p {
-    color: white;
-    text-align: center;
-    padding: auto;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20px;  
-  }
-
-
-  .logo img{
-    margin-left: 80px;
-    font-size: 10px;
-    height: 125px;
     
-  }
-
-
-  .item a {
-    color: white;
+  
+    .list li {
+    }
+  
+  
+  
+  
+    .menu ul li:hover {
+      border-bottom: 2px solid #55BBBB;
+    } 
+  
+  
+  
+  
+  
+  
     
-  }
-
   
-
   
-  .logo{
-    margin-left: 0;
-
-    margin-top: px;  
-  }
-
   
-
-
-
-
+    
+    .tema h1 {
+    font-size: 30px;
+    }
+    
+    .tema p {
+    font-size: 18px;
+    }
+  
+    body {
+        background-size: auto;
+    }
+    
+    
+  
+    .footer {
+      background-color: #000;
+      height: 80px;
+      width: 100%;
+      display: absolute;
+      margin-bottom: 0;  
+      bottom: 0;
+      left: 0;
+      z-index: 999;
+    } 
+    
+    .footer p {
+      color: white;
+      text-align: center;
+      padding: auto;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 20px;  
+    }
+  
+  
+    .logo img{
+      margin-left: 80px;
+      font-size: 10px;
+      height: 125px;
+      
+    }
+  
+  
+    .item a {
+      color: white;
+      
+    }
+  
+    
+  
+    
+    .logo{
+      margin-left: 0;
+  
+      margin-top: px;  
+    }
+  
+    
+  
+    
 }
