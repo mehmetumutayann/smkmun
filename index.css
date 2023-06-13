@@ -94,8 +94,7 @@ align-items: center;
 
 .menu {
  margin-top: 0;
- margin-right: 0;
-}
+  }
 
 .menu ul li a:hover {
   color: #55BBBB;
@@ -115,8 +114,7 @@ align-items: center;
 }
 .list{
   list-style: none;
-  display: flex;
-  position: fixed;
+  display: fixed;
   right: 5px;
   top: 10px;
   gap:5px;
@@ -419,11 +417,19 @@ body::after {
     }
   
     .list {
-      display: flex;
-      margin-right: -15%;
-      scale: 0.7;
-      margin-top: 65px;
+      scale: 0.5;
+      margin-top: -30px;
       gap: 1px;
+      display: flex;
+      flex-direction: row;
+      padding: 0;
+      margin-right: 300px;
+    
+    }
+
+    .menu {
+      margin: 0;
+      padding: 0;
     }
   
     .yazilar {
