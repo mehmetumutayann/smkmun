@@ -414,6 +414,11 @@ align-items: center;
     margin-bottom: 50px; 
     }
 
+    .harita {
+      width: 250px;
+      height: 300px;
+    }
+
      
     .yazilar {
       margin-left: 30px;
