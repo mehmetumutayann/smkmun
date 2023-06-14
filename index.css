@@ -403,9 +403,6 @@ align-items: center;
 
 
 
-
-
-
 @media screen and
 (max-width: 600px) {
   .tema {
@@ -468,6 +465,8 @@ align-items: center;
       background-attachment: fixed;
       margin: 0;
   }
+
+  
   
   body::after {
     content: "";
@@ -496,7 +495,8 @@ align-items: center;
   .footer p {
     color: white;
     text-align: center;
-    padding: auto;
+    padding-right: 15px;
+    padding-left: 15px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 20px;  
   }
