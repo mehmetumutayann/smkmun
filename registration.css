@@ -476,7 +476,7 @@
     color: white;
     border: none;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 25px;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -548,7 +548,7 @@
     }
     
     .tema p {
-    font-size: 18px;
+    font-size: 30px;
     }
   
      body {
@@ -699,6 +699,7 @@
     .anabaslik {
       padding-top: 100px;
       margin-bottom: 0;
+      font-size: 35px;
     }
   
 
