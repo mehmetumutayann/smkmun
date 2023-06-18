@@ -703,6 +703,10 @@
     }
   
 
+    .preloader {
+        z-index: 99999;
+    }
+
 
     
   
