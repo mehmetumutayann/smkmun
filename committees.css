@@ -2,7 +2,10 @@
 
 
 
-.navbar{
+.navbar {
+  position: sticky;
+  z-index: 999;
+  top: 0;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -12,10 +15,7 @@
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 300;
   height: 80px;
-  border-bottom: 1px solid #800000; 
-
-
-
+  border-bottom: 1px solid #800000;
 }
 
 .menu.closed {
@@ -48,8 +48,7 @@
 
    body {
       /* background-image: url("background.png"); */
-      background-color: black;
-      background-image: url("smkphoto.jpeg");
+      background-color: #800000;
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
@@ -80,6 +79,35 @@
 }
 .logomuz {
   scale: 0.5;
+}
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #800000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  opacity: 1;
+  animation: slide-out 1s 1s forwards;
+}
+
+.preloader-logo {
+  max-width: 600px;
+  max-height: 600px;
+}
+
+@keyframes slide-out {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
 }
 .tema .fotolar img {
   height: 130px;
@@ -156,13 +184,7 @@ align-items: center;
 
 
 
- body {
-    /* background-image: url("background.png"); */
-    background-color: black;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-}
+
 
 .tema {
   display: grid;
@@ -486,8 +508,7 @@ align-items: center;
 
    body {
       /* background-image: url("background.png"); */
-      background-color: black;
-      background-image: url("smkphoto.jpeg");
+      background-color: #800000;
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
@@ -533,7 +554,6 @@ align-items: center;
     padding: 10px;
     width: 100%;
     margin-left: 0;
-    margin-top: -43px;
     height: 60px;
     position: fixed;
   }
