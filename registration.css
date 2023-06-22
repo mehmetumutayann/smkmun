@@ -142,7 +142,6 @@ align-items: center;
   color: #fff;
 }
 .logo img{
-  margin-left: -25px;
   margin-top: -32px; 
   font-weight: 500;
   font-size: 20px;
@@ -654,7 +653,7 @@ align-items: center;
 
   
   .logo{
-    margin-left: -45px;
+    margin-left: -15px;
     height: -40px;
     margin-top: 13px;  
   }
