@@ -1,11 +1,3 @@
-window.addEventListener('load', function() {
-  var preloader = document.querySelector('.preloader');
-  preloader.addEventListener('animationend', function() {
-    preloader.style.display = 'none';
-  });
+$('#sorucevap .s').click(function(){
+	$(this).next().slideToggle(500).siblings('.c').slideUp(500);
 });
-
-
-
-
-
