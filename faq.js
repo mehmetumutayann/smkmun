@@ -11,3 +11,14 @@ window.addEventListener('load', function() {
         });
     }
 });
+
+var sourdegis1 = document.querySelector(".question")
+
+
+
+
+
+
+sourdegis1.addEventListener("click", () => {
+    sourdegis1.classList.toggle("active");
+});

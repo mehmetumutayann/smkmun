@@ -102,7 +102,6 @@
   padding: 14px 20px;
   text-decoration: none;
   font-family: 'Roboto Condensed', sans-serif;
-  transition: all 0.3s ease-in-out;
   font-size: 20px;
 }
 .logomuz {
@@ -143,7 +142,7 @@ align-items: center;
  margin-right: 20px;
 }
 
-.menu ul li:hover {
+.menu ul li a:hover {
   border-bottom: 2px solid #800000;
 } 
 .navbar a{
