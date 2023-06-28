@@ -144,7 +144,7 @@ align-items: center;
  margin-right: 20px;
 }
 
-.menu ul li:hover {
+.menu ul li a:hover {
   border-bottom: 2px solid #800000;
 } 
 .navbar a{
