@@ -11,14 +11,10 @@ window.addEventListener('load', function() {
         });
     }
 });
+var sourdegisler = document.querySelectorAll(".question");
 
-var sourdegis1 = document.querySelector(".question")
-
-
-
-
-
-
-sourdegis1.addEventListener("click", () => {
-    sourdegis1.classList.toggle("active");
+sourdegisler.forEach((sourdegis) => {
+  sourdegis.addEventListener("click", () => {
+    sourdegis.classList.toggle("active");
+  });
 });
