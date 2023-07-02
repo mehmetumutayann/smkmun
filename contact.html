@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="registration.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
@@ -38,10 +38,10 @@
           <ul class="list">
             <li class="item"><a href="index.html">Home</a></li>
             <li class="item"><a href="committees.html">Committees</a></li>
-            <li class="item"><a href="registration.html"class="active">Registration</a></li>
+            <li class="item"><a href="registration.html">Registration</a></li>
             <li class="item"><a href="our-team.html">Our Team</a></li>
             <li class="item"><a href="faq.html">FAQ</a></li>
-            <li class="item"><a href="contact.html">Contact</a></li>
+            <li class="item"><a href="contact.html"class="active">Contact</a></li>
 
           </ul>
           
@@ -49,33 +49,49 @@
         </div>
       </nav>
 
-      <h2 class="anabaslik">Registration</h2>
+      <h2 class="anabaslik">Contact</h2>
 
     <div class="tema">
 
-      <div class="kutucuk1">
-            <img src="person.png" alt="" class="individual">
-            <h1 class="delegate1">Individual Delegate</h1>
-            <p><br></p>
-            <button class="kayit"><a href="https://docs.google.com/forms/d/e/1FAIpQLScLz_3av9akoRRFh_fWF3UZ5cbepbDLuqRPal2fnkNX7cO5QA/viewform" target="_blank" style="text-decoration: none; color: #ffff;">APPLY NOW </a></button>
+        <form
+        action="https://formspree.io/f/xdornjww"
+        method="POST">
+        <div class="ilk">
+          <label>
+            Your name:
+          </label>
+
+            <input type="text" name="Name">
+            <label>
+              Your email:
+            </label>
+
+              <input type="email" name="Email">
+            <label>
+                Your number:
+              </label>
+
+                <input type="number" name="Number">
+        </div>
+        <div class="son">
+          <label>
+          Your message:
+        </label>
+          <textarea name="Message"></textarea>
+        </div>
+
+        
+        <button type="submit">Send</button>
+      </form>
+
+
       </div>
-
-      <div class="kutucuk1">
-        <img src="person.png" alt="" class="individual">
-        <h1 class="delegate1">Delegation</h1>
-        <p><br></p>
-        <button class="kayit"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfYcbjClQ5GRJiSLMSU98pYhsGdVj_akDmC-Wmb-LhD7XOrGw/viewform" target="_blank" style="text-decoration: none; color: #ffff;">APPLY NOW </a></button>
-  </div>
-      </div>
-
-
-
-
 
       <div class="footer">
         <p>Made by <a style="text-decoration: none; color: #800000 ; border-bottom: 1px solid #800000;" href="https://www.linkedin.com/in/mehmetumutayan/" target="_blank">Head of IT</a> | © 2023 All rights reserved. | ŞMKMUN'23</p>
       </div>
     <script src="engelleme.js"></script>
+
 
 
 </body>
