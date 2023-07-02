@@ -559,8 +559,6 @@
       padding-top: 0;
       border-radius: 10px;
       margin-bottom: 50px; 
-      display: grid;
-      grid-template-columns: 1fr;
       grid-gap: 5px;
       align-items: center;
       justify-content: center;
@@ -768,8 +766,69 @@
     .preloader {
         z-index: 99999;
     }
+
+    form {
+      width: 90%;
+      margin-left: 0;
+      margin-right: 0;
+      margin-top: 60px;
+      margin-bottom: 70px;
+      padding: 0px;
+      border-radius: 5px;
+      background-color: rgb(70, 0, 0);
+      padding: 20px;
+    }
+
+
+    .ilk,
+    .son {
+      width: 48%; 
+      padding: 0px;
+   }
+  
+    .ilk label,
+    .son label {
+      display: inline-block;
+      margin-bottom: 10px;
+      margin-top: 15px;
+    }
+  
+    .ilk input,
+    .son textarea {
+      width:90%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+  
+    .son textarea {
+      height: 200px;
+    }
+  
+      button {
+      margin-top: 70px;
+      margin-bottom: 40px;
+      padding: 10px;
+      background-color: black;
+      font-family: 'Roboto Condensed', sans-serif;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 20px;
+    }
   
   
+  
+    label {
+      font-size: 20px;
+      color: white;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-weight: bold;
+      font-size: 25px;
+    }
+
     
   
   
