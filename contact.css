@@ -89,6 +89,13 @@
     opacity: 1;
     animation: slide-out 1s 1s forwards;
   }
+
+  
+  form {
+    border-radius: 5px;
+    background-color: rgb(102, 2, 2);
+    padding-top: 40px;
+  }
   
   .preloader-logo {
     max-width: 600px;

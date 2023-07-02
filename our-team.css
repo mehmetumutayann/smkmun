@@ -85,7 +85,14 @@
   
   .uye {
     margin-bottom: 30px;
+    background-color: rgb(97, 3, 3);
+    padding-top: 40px;
+    border-radius: 30px;
 
+  }
+
+  .uye img {
+    border-radius: 30px;
   }
 
   
@@ -285,6 +292,7 @@
     font-family: 'Roboto Condensed', sans-serif;
   
   }
+
   
   
   @media all and (max-width: 768px) {
@@ -742,6 +750,7 @@
 
     .takim {
         grid-template-columns: 1fr;
+
       }
 
       .uye {
@@ -750,6 +759,7 @@
         border: 1px solid #ffffff;
         border-radius: 30px;
       }
+
 
 
 
