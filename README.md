@@ -1,0 +1,3 @@
+Neler değişmedi ki şu hayatta,
+Bir ben bir de hayallerim,
+Yalnız kalacaktık sonunda...
